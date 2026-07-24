@@ -1,0 +1,86 @@
+{
+  "bakeryName": "Layers Bakery",
+  "hours": "9:00 AM – 11:00 PM, every day",
+  "deliveryTime": "45–60 minutes",
+  "categories": [
+    {
+      "id": "cakes",
+      "name": "Cakes",
+      "items": [
+        {
+          "id": "chocolate-cake",
+          "name": "Chocolate Cake",
+          "flavors": ["Classic Dark Chocolate", "Chocolate Fudge", "Chocolate Orange"],
+          "sizes": [
+            { "size": "6 inch", "price": 1200 },
+            { "size": "9 inch", "price": 2100 }
+          ]
+        },
+        {
+          "id": "red-velvet-cake",
+          "name": "Red Velvet Cake",
+          "flavors": ["Classic Cream Cheese", "White Chocolate"],
+          "sizes": [
+            { "size": "6 inch", "price": 1400 },
+            { "size": "9 inch", "price": 2400 }
+          ]
+        },
+        {
+          "id": "lotus-cake",
+          "name": "Lotus Cake",
+          "flavors": ["Biscoff Crunch", "Lotus Cream"],
+          "sizes": [
+            { "size": "6 inch", "price": 1600 },
+            { "size": "9 inch", "price": 2700 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "brownies",
+      "name": "Brownies",
+      "items": [
+        {
+          "id": "fudge-brownie",
+          "name": "Fudge Brownie",
+          "flavors": ["Classic Fudge", "Walnut", "Nutella Swirl"],
+          "sizes": [
+            { "size": "Single", "price": 250 },
+            { "size": "Box of 6", "price": 1350 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cupcakes",
+      "name": "Cupcakes",
+      "items": [
+        {
+          "id": "cupcake",
+          "name": "Cupcake",
+          "flavors": ["Vanilla", "Chocolate", "Red Velvet", "Lotus"],
+          "sizes": [
+            { "size": "Single", "price": 200 },
+            { "size": "Box of 6", "price": 1100 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cookies",
+      "name": "Cookies",
+      "items": [
+        {
+          "id": "cookie",
+          "name": "Cookie",
+          "flavors": ["Chocolate Chip", "Double Chocolate", "Oatmeal"],
+          "sizes": [
+            { "size": "Single", "price": 150 },
+            { "size": "Box of 6", "price": 800 }
+          ]
+        }
+      ]
+    }
+  ],
+  "currency": "PKR"
+}
